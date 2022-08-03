@@ -7,7 +7,7 @@
   display: none;
 }
 .our-logo{
-  background-color: #f9f4e6;
+  background-color: #0e1325;
   width: 100%;
   text-align: center;
 }
@@ -22,26 +22,30 @@
   margin-top: -5px;
 }
 .about-heading{
-  margin-top: -38px;
+  margin-top: 0;
   width: 100%;
   height: 400px;
-  background-color: #f9f4e6;
+  background-color: #0e1325;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.about-heading>h4{
+.about-heading>h1{
   text-align: center;
-  color: #003366;
+  color: #d4b982;
+  font-family: Mon-Med;
   font-size: 45px;
   margin-top: 60px;
   margin-bottom: 10px;
 }
 .about-heading>p{
-  width: 80%;
+  width: 70%;
   font-size: 20px;
   text-align: center;
+  line-height: 1.6;
+  color: #d4b982;
+  font-family: Mon-Med;
   margin: 10px;
   padding: 25px;
 }
@@ -155,12 +159,12 @@ button:after{
   display: none;
 }
 .faq{
-  font-size: 50px;
-  font-family: walkwayBlack;
-  letter-spacing: 2px;
+  font-size: 250%;
+  font-family: 'Mon-Med';
   color: #d4b982;
-  margin-left: 20px;
+  margin-left: -22%;
   margin-right: 20px;
+  margin-bottom: 7%;
 }
 .faq-box{
   height: auto;
@@ -179,17 +183,22 @@ button:after{
 
 }
 .question{
-  font-size: 30px;
-  color: #003366;
+  font-size: 150%;
+  color: #d4b982;
   margin: 15px;
+  margin-left: -20%;
   font-family: Mon-Med;
 }
+
 .answer{
   margin: 15px;
-  font-size: 20px;
-  color: #e24646;
+  margin-left: -20%;
+  line-height: 1.3;
+  font-size: 100%;
+  color: #f9f4e6;
   opacity: 0.9;
 }
+
 .nfc-link{
   text-decoration: none;
   color: #003366;
