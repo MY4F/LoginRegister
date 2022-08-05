@@ -12,8 +12,8 @@
   text-align: center;
 }
 .our-logo>img{
-  margin: 60px 0px auto;
-  width: 10%;
+  margin: 6% 0px auto;
+  width: 9%;
 }
 .name{
   font-family: walkway2;
@@ -35,9 +35,9 @@
   text-align: center;
   color: #d4b982;
   font-family: Mon-Med;
-  font-size: 45px;
-  margin-top: 60px;
-  margin-bottom: 10px;
+  font-size: 210%;
+  margin-top: 4%;
+  margin-bottom: 1%
 }
 .about-heading>p{
   width: 70%;
@@ -162,9 +162,9 @@ button:after{
   font-size: 250%;
   font-family: 'Mon-Med';
   color: #d4b982;
-  margin-left: -22%;
-  margin-right: 20px;
-  margin-bottom: 7%;
+  margin-left: -40.5%;
+  margin-right: 0px;
+  margin-bottom: 4%;
 }
 .faq-box{
   height: auto;
@@ -201,15 +201,15 @@ button:after{
 
 .nfc-link{
   text-decoration: none;
-  color: #003366;
-  border-bottom: 1px solid #003366;
+  color: #e74444;
+  border-bottom: 1px solid #347fca;
 }
 .fade-in {
   opacity: 0;
   transition: opacity 0.7s ease-in;
 }
 .fade-in.appear {
-  opacity: 1;
+  opacity: 0.9;
 }
 .from-left {
   -webkit-transform: translateX(-50%);
@@ -345,4 +345,5 @@ button:after{
   .question-holder{
     width: 80%;
   }
+
 }
